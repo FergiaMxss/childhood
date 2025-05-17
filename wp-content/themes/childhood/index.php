@@ -430,7 +430,10 @@ get_header();
             </div>
             <div class="col-md-6">
                 <div class="title contacts__minititle">Оставьте ваш отзыв</div>
-                <form action="#" class="contacts__feed">
+                <div class="contacts__feed">
+                    <?php echo do_shortcode('[contact-form-7 id="4e41e9f" title="Contact form 1"]'); ?>
+                </div>
+                <!-- <form action="#" class="contacts__feed">
                     <label for="feedname">
                         Ваше имя <span>*</span>
                     </label>
@@ -753,7 +756,7 @@ get_header();
                         </style>
                     </svg>
 
-                </form>
+                </form> -->
             </div>
         </div>
         <div class="row mt70">
